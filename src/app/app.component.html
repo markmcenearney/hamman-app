@@ -1,0 +1,25 @@
+<head>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+table, thead, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>What did Bob Hamman lead vs 3N?</h1>
+
+<table class="w3-table w3-bordered w3-striped">
+  <thead>
+    <td style="width:100px;text-align:center" *ngFor="let name of names" >{{name}}</td> 
+  </thead>
+  <tr *ngFor="let calls of auction">
+    <td style="width:100px;text-align:center" *ngFor="let call of calls" >{{call}}</td> 
+  </tr>
+</table>
+
+<p><span style="color:black">&spades;</span> AK42  <span style="color:red">&hearts;</span> 432  <span style="color:red">&diams;</span>  QJT2  <span style="color:black">&clubs;</span>  98</p>
+
+</body>
